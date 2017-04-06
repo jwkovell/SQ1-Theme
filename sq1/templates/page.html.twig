@@ -1,0 +1,35 @@
+<div id="header-area" class="area">
+  {{ page.header }}
+</div>
+
+<div id="navigation-area" class="area">
+  {{ page.primary_menu }}
+  {{ page.secondary_menu }}
+</div>
+
+<div id="banner-area" class="area">
+  {{ page.banner }}
+  {{ page.breadcrumb }}
+  {{ page.highlighted }}
+  {{ page.help }}
+</div>
+
+<div id="content-area" class="area">
+  {{ page.content }}
+  {% if page.sidebar_first %}
+    {{ page.sidebar_first }}
+  {% endif %}
+  {% if page.sidebar_second %}
+    {{ page.sidebar_second }}
+  {% endif %}
+</div>
+
+<div id="featured-area" class="area">
+  {{ page.featured_first }}
+  {{ page.featured_second }}
+  {{ page.featured_third }}
+</div>
+
+<div id="footer-area" class="area">
+  {{ page.footer }}
+</div>

@@ -1,0 +1,31 @@
+.region-primary-menu ul.menu {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  background-color: #ccc;
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.region-primary-menu ul.menu li.menu-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+
+.region-primary-menu ul.menu li.menu-item a {
+  display: block;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.region-primary-menu ul.menu li.menu-item a:hover {
+  background-color: #ddd;
+}
+
+.region-primary-menu ul.menu li.menu-item ul {
+  display: none;
+}

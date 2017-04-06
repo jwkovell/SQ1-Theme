@@ -1,0 +1,21 @@
+.region-sidebar-first .block,
+.region-sidebar-second .block {
+  background-color: #eee;
+}
+
+.region-sidebar-first .block h2,
+.region-sidebar-second .block h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.region-sidebar-first ul.menu,
+.region-sidebar-second ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #ccc;
+  content: " ";
+  display: table;
+  clear: both;
+}

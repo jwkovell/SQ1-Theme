@@ -1,0 +1,26 @@
+primary:
+  version: 1.0.0
+  css:
+    base:
+      css/structure.css: {}
+      css/components/primary-menu.css: {}
+      css/components/sidebar-block.css: {}
+      css/components/sidebar-menu.css: {}
+      css/style.css: {}
+  js:
+    js/slideshow.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+
+qs:
+  version: 1.0.0
+  css:
+    base:
+      qs/css/qs-columns.css: {}
+      qs/css/style.css: {}
+  js:
+    qs/js/script.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
