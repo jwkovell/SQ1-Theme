@@ -1,5 +1,11 @@
 body {
   margin: 0;
+  font-size: 100%;
+}
+
+#site-wrap {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .area {
@@ -9,26 +15,34 @@ body {
   width: 100%;
 }
 
-#header-area {
-  background-color: LightSalmon;
+#content-area .region {
+  float: left;
 }
 
-#navigation-area {
-  background-color: Moccasin;
+#content-area .region-content:first-child:last-child {
+  float: none;
 }
 
-#banner-area {
-  background-color: PaleGreen;
+#content-area .region-content:first-child:nth-last-child(2) {
+  width: 75%;
+  margin-left: 25%;
 }
 
-#content-area {
-  background-color: LightCyan;
+#content-area .region-content:first-child:nth-last-child(2) ~ .region-sidebar-first {
+  width: 25%;
+  margin-left: -100%;
 }
 
-#featured-area {
-  background-color: Lavender;
+#content-area .region-content:first-child:nth-last-child(3) {
+  width: 50%;
+  margin-left: 25%;
 }
 
-#footer-area {
-  background-color: MediumPurple;
+#content-area .region-content:first-child:nth-last-child(3) ~ .region-sidebar-first {
+  width: 25%;
+  margin-left: -75%;
+}
+
+#content-area .region-content:first-child:nth-last-child(3) ~ .region-sidebar-second {
+  width: 25%;
 }

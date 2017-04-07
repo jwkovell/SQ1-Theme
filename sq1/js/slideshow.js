@@ -50,8 +50,8 @@ var Drupal = Drupal || { 'settings': {}, 'behaviors': {}, 'themes': {}, 'locale'
         // Position slides.
         $('.slideshow .slide').css({left: '-1000%'}).removeClass('current-slide');
         $('.slideshow .slide:eq(' + currentSlide + ')').css({left: 0}).addClass('current-slide');
-        $('.slideshow .slide:eq(' + nextSlide + ')').css({left: '82%'});
-        $('.slideshow .slide:eq(' + previousSlide + ')').css({left: '-82%'});
+        $('.slideshow .slide:eq(' + nextSlide + ')').css({left: '51%'});
+        $('.slideshow .slide:eq(' + previousSlide + ')').css({left: '-51%'});
 
       }
 
@@ -80,7 +80,7 @@ var Drupal = Drupal || { 'settings': {}, 'behaviors': {}, 'themes': {}, 'locale'
       // Reposition slides.
       positionSlides();
 
-      setInterval(function(){ autoScroll(); }, 3000);
+      //setInterval(function(){ autoScroll(); }, 3000);
 
     }
   };

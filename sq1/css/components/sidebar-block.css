@@ -1,12 +1,18 @@
 .region-sidebar-first .block,
 .region-sidebar-second .block {
   background-color: #eee;
+  margin: 1em .5em;
 }
 
 .region-sidebar-first .block h2,
 .region-sidebar-second .block h2 {
   margin: 0;
   padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.25em;
+  border-bottom: 2px solid #000;
 }
 
 .region-sidebar-first ul.menu,

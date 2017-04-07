@@ -6,6 +6,7 @@ primary:
       css/components/primary-menu.css: {}
       css/components/sidebar-block.css: {}
       css/components/sidebar-menu.css: {}
+      css/components/slideshow.css: {}
       css/style.css: {}
   js:
     js/slideshow.js: {}
