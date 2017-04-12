@@ -1,6 +1,5 @@
 .region-sidebar-first .block,
 .region-sidebar-second .block {
-  background-color: #eee;
   margin: 1em .5em;
 }
 
@@ -12,16 +11,5 @@
   font-weight: normal;
   text-align: center;
   line-height: 1.25em;
-  border-bottom: 2px solid #000;
-}
-
-.region-sidebar-first ul.menu,
-.region-sidebar-second ul.menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background-color: #ccc;
-  content: " ";
-  display: table;
-  clear: both;
+  border-bottom: 2px solid #999;
 }

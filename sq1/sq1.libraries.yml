@@ -4,6 +4,9 @@ primary:
     base:
       css/structure.css: {}
       css/components/primary-menu.css: {}
+      css/components/content-block.css: {}
+      css/components/content-node.css: {}
+      css/components/header-block.css: {}
       css/components/sidebar-block.css: {}
       css/components/sidebar-menu.css: {}
       css/components/slideshow.css: {}

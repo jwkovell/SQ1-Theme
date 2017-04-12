@@ -1,1 +1,30 @@
 <?php
+
+function sq1_form_system_theme_settings_alter(&$form, \Drupal\Core\Form\FormStateInterface &$form_state, $form_id = NULL) {
+
+  $form['header_position'] = [
+    '#type' => 'select',
+    '#title' => t('Header position'),
+    '#options' => [
+      'outside' => 'Outside wrap',
+      'inside' => 'Inside wrap',
+    ],
+    '#default_value' => theme_get_setting('header_position'),
+  ];
+
+  $form['navigation_position'] = [
+    '#type' => 'select',
+    '#title' => t('Navigation position'),
+    '#options' => [
+      'outside' => 'Outside wrap',
+      'inside' => 'Inside wrap',
+    ],
+    '#default_value' => theme_get_setting('navigation_position'),
+  ];
+
+}
+
+function sq1_preprocess_page(&$variables) {
+  $variables['header_position'] = theme_get_setting('header_position');
+  $variables['navigation_position'] = theme_get_setting('navigation_position');
+}

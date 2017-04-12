@@ -1,23 +1,21 @@
 #header-area {
-  background-color: LightSalmon;
 }
 
 #navigation-area {
-  background-color: Moccasin;
 }
 
 #banner-area {
-  background-color: PaleGreen;
 }
 
 #content-area {
-  background-color: LightCyan;
 }
 
 #featured-area {
-  background-color: Lavender;
 }
 
 #footer-area {
-  background-color: MediumPurple;
+}
+
+#site-wrap {
+  /*  */
 }

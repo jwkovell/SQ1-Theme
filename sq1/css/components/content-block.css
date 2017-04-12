@@ -1,0 +1,8 @@
+.region-content .block {
+  margin: 1em .5em;
+}
+
+.region-content .block h1 {
+  margin: 0;
+  border-bottom: 2px solid #999;
+}

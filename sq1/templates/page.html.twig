@@ -1,13 +1,30 @@
-<div id="site-wrap">
-
-  <div id="header-area" class="area">
-    {{ page.header }}
-  </div>
-
+{% if navigation_position == 'outside' %}
   <div id="navigation-area" class="area">
     {{ page.primary_menu }}
     {{ page.secondary_menu }}
   </div>
+{% endif %}
+
+{% if header_position == 'outside' %}
+  <div id="header-area" class="area">
+    {{ page.header }}
+  </div>
+{% endif %}
+
+<div id="site-wrap">
+
+  {% if header_position == 'inside' %}
+    <div id="header-area" class="area">
+      {{ page.header }}
+    </div>
+  {% endif %}
+
+  {% if navigation_position == 'inside' %}
+    <div id="navigation-area" class="area">
+      {{ page.primary_menu }}
+      {{ page.secondary_menu }}
+    </div>
+  {% endif %}
 
   <div id="banner-area" class="area">
     {{ page.banner }}
