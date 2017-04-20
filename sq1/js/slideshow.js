@@ -1,7 +1,7 @@
 var Drupal = Drupal || { 'settings': {}, 'behaviors': {}, 'themes': {}, 'locale': {} };
 
 (function ($, Drupal) {
-  Drupal.behaviors.sq1ThemeLoad = {
+  Drupal.behaviors.sq1ThemeLoadSlideshow = {
     attach: function (context, settings) {
 
       var slideCount = $('.slideshow .slide').length;
@@ -80,7 +80,7 @@ var Drupal = Drupal || { 'settings': {}, 'behaviors': {}, 'themes': {}, 'locale'
       // Reposition slides.
       positionSlides();
 
-      //setInterval(function(){ autoScroll(); }, 3000);
+      setInterval(function(){ autoScroll(); }, 3000);
 
     }
   };

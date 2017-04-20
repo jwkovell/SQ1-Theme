@@ -6,6 +6,7 @@ primary:
       css/components/primary-menu.css: {}
       css/components/content-block.css: {}
       css/components/content-node.css: {}
+      css/components/footer-menu.css: {}
       css/components/header-block.css: {}
       css/components/sidebar-block.css: {}
       css/components/sidebar-menu.css: {}
@@ -13,6 +14,7 @@ primary:
       css/style.css: {}
   js:
     js/slideshow.js: {}
+    js/primary-menu.js: {}
   dependencies:
     - core/jquery
     - core/jquery.once

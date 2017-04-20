@@ -17,5 +17,63 @@
 }
 
 #site-wrap {
-  /*  */
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+/* SIDEBAR BLOCKS */
+
+.region-sidebar-first .block h2,
+.region-sidebar-second .block h2 {
+}
+
+/* SIDEBAR MENUS */
+
+.region-sidebar-first ul.menu .menu-item,
+.region-sidebar-second ul.menu .menu-item {
+
+}
+
+/* PRIMARY MENU */
+
+.region-primary-menu .menu {
+  background-color: #ddd;
+}
+
+.region-primary-menu .menu > .menu-item a {
+  color: #000;
+}
+
+.region-primary-menu .menu > .menu-item:hover a {
+  background-color: #bbb;
+}
+
+.region-primary-menu .menu > .menu-item .sub-menu {
+  background-color: #bbb;
+}
+
+.region-primary-menu .menu > .menu-item .menu-item a:hover {
+  background-color: #aaa;
+}
+
+@media (max-width: 800px) {
+
+  .region-primary-menu .menu:before {
+    background-color: #ccc;
+  }
+
+}
+
+/* FOOTER MENU */
+
+.region-footer .menu {
+  background-color: #ddd;
+}
+
+.region-footer .menu > .menu-item a {
+  color: #000;
 }
