@@ -10,7 +10,6 @@ primary:
       css/components/header-block.css: {}
       css/components/sidebar-block.css: {}
       css/components/sidebar-menu.css: {}
-      css/components/slideshow.css: {}
       css/style.css: {}
   js:
     js/primary-menu.js: {}
